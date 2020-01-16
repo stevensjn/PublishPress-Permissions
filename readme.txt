@@ -55,6 +55,12 @@ Initial production release
 
 == Changelog ==
 
+= 2.9.1 =
+* Fixed : Status Control module - If custom capabilities are disabled for a status, supplemental roles already assigned for that status were treated as a standard statuses role assignment  
+* Fixed : Javascript error when a published post is unpublished in the block editor
+* Compat : Media Library Assistant - PP Permissions were not applied on Media Library thumbnail view or Select Media tab
+* Change : Admin menu ordering - If PublishPress Capabilities is active, display Permissions menu below Capabilities (both under Users)
+
 = 2.9 - 9 Jan 2020 =
 * Change : Renamed to PublishPress Permissions
 * Compat : PublishPress Capabilities
